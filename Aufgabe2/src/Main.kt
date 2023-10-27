@@ -1,9 +1,11 @@
 fun main() {
-    var x = 10
-    var y = 0
+    var a = 5
+    var b = 0
 
-    if (y != 0) {
-        var result = x / y
+    var quotient = a / b
+
+    if (b != 0) {
+        var result = a / b
         println("Das Ergebnis ist: $result")
     } else {
         println("Division durch Null ist nicht erlaubt.")
